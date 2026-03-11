@@ -28,3 +28,25 @@ Phase 4: Conflict Handling and Comparison
 4. git switch branch1
 5. git push origin branch1
 6. git diff main
+
+
+
+
+Create  a new repository in ur github account eg: Dev1
+Create a new folder on ur desktop (Devlab1) and create a text file (Newfile) write something on the file save and close.
+Go to gitbash
+Copy path of the folder and paste it in the git bash using the command $ cd …..
+Execute the following command:
+git init
+Copy the repository link from github and paste it in the following command
+git remote add origin https://github.com/Praneetha-sh/Dev1.git 
+git add .
+git commit -m “my new commit”
+git config --global user.email “shpranee27@gmail.com”
+git config --global user.username “Praneetha-sh”
+git push origin master
+git log
+git status
+git clone https://github.com/Praneetha-sh/Dev1.git
+git reset
+
